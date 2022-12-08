@@ -1,4 +1,4 @@
-run = "cargo run --bin 05"
+run = "cargo run --bin 07"
 entrypoint = "src/lib.rs"
 language = "nix"
 hidden = [
