@@ -1,0 +1,26 @@
+[package]
+name = "aoc"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "01"
+path = "src/0/01.rs"
+
+[[bin]]
+name = "02"
+path = "src/0/02.rs"
+
+[[bin]]
+name = "03"
+path = "src/0/03.rs"
+
+[[bin]]
+name = "04"
+path = "src/0/04.rs"
+
+[[bin]]
+name = "05"
+path = "src/0/05.rs"

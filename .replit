@@ -1,0 +1,17 @@
+run = "cargo run --bin 05"
+entrypoint = "src/lib.rs"
+language = "nix"
+hidden = [
+    ".cargo",
+    "Cargo.lock",
+    "target"
+]
+
+[packager]
+language = "rust"
+
+[nix]
+channel = "stable-22_05"
+
+[env]
+CARGO_HOME = "${HOME}/${REPL_SLUG}/.cargo"
